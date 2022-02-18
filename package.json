@@ -6,12 +6,16 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "web3": "^1.7.0"
+  },
   "devDependencies": {
     "@openzeppelin/contracts": "^4.5.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon scripts/index.js"
   },
   "repository": {
     "type": "git",
